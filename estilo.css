@@ -1,0 +1,95 @@
+body {
+	background: black /*url('imagens/fundo.png')*/;
+	font: 16px Arial, helvetica, sans-serif;
+	min-width: 650px;
+}
+
+/*Style Index*/
+footer{
+	background-color: black;
+	text-align: right;
+	padding: 10px;
+	margin-bottom: 0px;
+}
+#img-capa{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+#img-capa img{
+	width: 85%;
+}
+#cabecalho{
+	padding:25px;
+	font-size: 24px;
+
+}
+#cabecalho a{
+	text-decoration: none;
+	color: White;
+	padding: 10px;
+	border-radius: 20px;
+}
+#cabecalho a:hover, .cabecalho2 a:hover{
+	background-color: white; 
+	color:black;
+	transition-duration: 0.5s;
+}
+#body-index{
+	background-image: url(imagens/modelo-index.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+#inicio-index{
+	width:30% ;
+	color:white;
+	text-align: center;
+	float: left;
+	margin: 500px 50px 0px 0px;
+	font-size: 25px;
+	font-weight: bold;
+}
+#modelo-ficticia{
+	font-size: 12px;
+}
+
+/*Style biografia*/
+
+.cabecalho2{
+	padding:18px;
+	font-size: 16px;
+	margin: 2% 5%;
+	position: fixed;
+}
+
+.cabecalho2 a{
+	text-decoration: none;
+	color: White;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: black;
+}
+#img-fundo{
+	background-image: url(imagens/modelo-bio.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+}
+
+#conteudo{
+	background-color: white;
+	text-align: center;
+}
+p{
+	margin: 20px 15%;
+}
+.img-campanha{
+	width: 70%;
+}
+#atual {
+	background-color: rgb(87, 87, 87);
+	color: rgb(254, 250, 250)
+}
